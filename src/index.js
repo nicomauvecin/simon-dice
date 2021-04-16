@@ -29,15 +29,19 @@ function iniciarJuego(){
 }
 
 function manejarRondas(){
+    actualizarEstadoComputadora();
     turno++;
     secuenciaUsuario = []
     document.querySelector('#ronda').innerText = `${turno}`
-    turnoComputadora(turno);
+    turnoComputadora();
     const RETRASO_TURNO_JUGADOR = (turno + 1) * 1000; 
-    setTimeout(turnoUsuario(), RETRASO_TURNO_JUGADOR);
+    setTimeout(function(){
+        actualizarEstadoUsuario();
+        turnoUsuario();
+    }, RETRASO_TURNO_JUGADOR);
 }
 
-function turnoComputadora(turno){
+function turnoComputadora(){
     actualizarEstadoComputadora();
     generarSecuencia();
 
