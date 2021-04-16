@@ -9,7 +9,7 @@ let contador = 0;
 
 
 $botonEmpezar.onclick = function(){
-    iniciarJuego();
+    manejarRondas();
     $botonEmpezar.classList.add('oculto');
 }
 
@@ -22,10 +22,6 @@ $botonReiniciar.onclick = function(){
     contador = 0;
     $botonReiniciar.classList.add('oculto');
     $botonEmpezar.classList.remove('oculto');
-}
-
-function iniciarJuego(){
-    manejarRondas();
 }
 
 function manejarRondas(){
