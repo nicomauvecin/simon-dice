@@ -18,5 +18,6 @@
   "homepage": "https://github.com/nicomauvecin/simon-dice#readme",
   "dependencies": {
     "bootstrap": "^4.6.0"
-  }
+  },
+  "devDependencies": {}
 }
