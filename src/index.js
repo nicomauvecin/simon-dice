@@ -5,7 +5,6 @@ const $cuadros = document.querySelectorAll('.cuadro');
 let turno = 0;
 let secuenciaComputadora = [];
 let secuenciaUsuario = [];
-let contador = 0;
 
 
 $botonEmpezar.onclick = function(){
@@ -19,7 +18,6 @@ $botonReiniciar.onclick = function(){
     document.querySelector('#estado').innerText = 'Haz click en el botón Empezar para jugar :)';
     secuenciaComputadora = [];
     secuenciaUsuario = [];
-    contador = 0;
     $botonReiniciar.classList.add('oculto');
     $botonEmpezar.classList.remove('oculto');
 }
