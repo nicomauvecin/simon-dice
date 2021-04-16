@@ -1,0 +1,22 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego creado para el curso r/argentina-programa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicomauvecin/simon-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicomauvecin/simon-dice/issues"
+  },
+  "homepage": "https://github.com/nicomauvecin/simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
